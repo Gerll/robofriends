@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
+//import Card from './Card';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
+//import { robots } from './robots';
+import App from './App';
+import SearchBox from './SearchBox';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello />
+    <div>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
